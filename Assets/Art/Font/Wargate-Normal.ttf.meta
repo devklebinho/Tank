@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ee7e72f50354fa24cb577ccf54e96b4b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Wargate
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 15d0c00df98809c489ea939339253d4d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
