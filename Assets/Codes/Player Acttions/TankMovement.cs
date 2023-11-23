@@ -6,23 +6,22 @@ using UnityEngine.InputSystem;
 public class TankMovement : MonoBehaviour
 {
     [SerializeField] PlayerInput _playerInput;
-
-    private InputAction move;
-
     [SerializeField] InputActionReference _actionReference;
 
-
+    private InputAction move;
+    
     [SerializeField] float speed;
-    [SerializeField] Rigidbody2D body;
+    Rigidbody2D body;
 
     private void Awake()
     {
         move = _playerInput.actions.FindAction(_actionReference.action.id);
+        body = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
-        
+       
     }
 
     private void FixedUpdate()
